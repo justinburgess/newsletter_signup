@@ -38,6 +38,9 @@ main {
 .contact fieldset {
     margin-top: 1rem;
 }
+.blue-box {
+    overflow: auto;
+}
 .news-label {
     margin: .5rem 0;
 }
@@ -45,7 +48,7 @@ main {
     margin: .75rem 0;
 }
 #zipcode {
-    max-width: 150px;
+    width: 50%;
 }
 #interests {
     margin-bottom: 1rem;
@@ -64,7 +67,7 @@ body {
 .contact,
 .newsletter {
     margin: 1.5rem 0;
-    padding: 0 .5rem;
+    padding: 0 1rem;
 }
 .news-label,
 .interests-label {
@@ -175,10 +178,9 @@ legend {
 .copy,
 legend,
 .sub-btn,
-.contact-label
- {
+.contact-label {
     text-transform: capitalize;
- }
+}
 
 
 /* Interactive styling */
@@ -237,5 +239,8 @@ Media Queries
         flex-basis: 70%;
         flex-grow: 2;
         margin: 1rem 0 .25rem;
+    }
+    #zipcode {
+        max-width: 25%;
     }
 }
