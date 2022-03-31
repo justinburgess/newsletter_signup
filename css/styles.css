@@ -183,7 +183,7 @@ legend,
 }
 
 
-/* Interactive styling */
+/* Interactive element styling */
 select {
     color: rgba(74, 78, 83, .5);
     font-size: 16px;
@@ -197,7 +197,6 @@ select:valid {
 }
 .sub-btn {
     background-color: rgb(99, 180, 176);
-    
 }
 .sub-btn:hover {
     background-color: rgb(59, 122, 119);
